@@ -44,7 +44,6 @@ section{
 
 .swiper-slide {
     width: auto;
-    text-align: center;
     display: flex;
     align-items: center;
 }

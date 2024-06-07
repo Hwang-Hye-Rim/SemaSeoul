@@ -267,6 +267,21 @@ header .hd_bottom .mo{
     display: none;
 }
 
+@media all and (max-width: 1900px) {
+    .slide_title{
+        top: 34vw;
+        left: -4vw;
+        font-size: 1.421vw;
+    }
+}
+
+@media all and (max-width: 1750px) {
+    .slide_title{
+        top: 39vw;
+        left: -10vw;
+    }
+}
+
 @media all and (max-width: 1550px) {
     .slide_con>li>a{
         position: absolute;
@@ -275,6 +290,7 @@ header .hd_bottom .mo{
 
     .slide_title{
         top: auto;
+        left: 0;
         bottom: 0px;
         transform: rotateZ( 0 );
         width: 100%;
