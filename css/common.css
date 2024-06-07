@@ -1,0 +1,101 @@
+header, section, footer{
+    width: 100%;
+}
+
+section{
+    padding: 100px 0;
+}
+
+.inner{
+    width: 1520px;
+    margin: 0 auto;
+}
+
+.title{
+    width: 100%;
+    margin-bottom: 80px;
+    text-align: center;
+}
+
+.title>h2{
+    margin-bottom: 5px;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.title>p{
+    font-size: 19px;
+    font-weight: 300;
+    color: #858585;
+}
+
+.sec_con{
+    display: flex;
+    justify-content: space-between;
+}
+
+.swiper {
+    width: 100%;
+}
+
+.swiper-wrapper{
+    justify-content: space-between;
+}
+
+.swiper-slide {
+    width: auto;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+@media all and (max-width: 1550px) {
+    .inner{
+        width: 100%;
+        padding: 0 15px;
+    }
+}
+
+@media all and (max-width: 1420px) {
+    section{
+        padding: 7.042vw 0;
+    }
+
+    .title{
+        margin-bottom: 5.634vw;
+    }
+    
+    .title>h2{
+        margin-bottom: 0.352vw;
+        font-size: 2.817vw;
+    }
+    
+    .title>p{
+        font-size: 1.338vw;
+    }
+}
+
+@media all and (max-width: 1020px) {
+    section{
+        padding: 50px 0;
+    }
+
+    .title{
+        margin-bottom: 40px;
+    }
+    
+    .title>h2{
+        margin-bottom: 10px;
+        font-size: 25px;
+    }
+    
+    .title>p{
+        font-size: 13px;
+    }
+}
+
+@media all and (max-width: 820px) {
+    .title{
+        text-align: start;
+    }
+}
